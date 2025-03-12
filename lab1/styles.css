@@ -198,6 +198,7 @@ nav ul li a.active {
 
 .project-card {
   background: white;
+  border: 5px solid rgb(224, 185, 198);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -213,7 +214,7 @@ nav ul li a.active {
 .project-title {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #333;
+  color: rgb(85, 58, 67);
 }
 
 .project-description {
@@ -223,7 +224,7 @@ nav ul li a.active {
 }
 
 .btn {
-  background: #007bff;
+  background: rgb(224, 185, 198);
   color: white;
   padding: 8px 15px;
   border: none;
@@ -233,7 +234,7 @@ nav ul li a.active {
 }
 
 .btn:hover {
-  background: #0056b3;
+  background: rgb(237, 92, 140);
 }
 
 .ranking-container {
@@ -278,4 +279,50 @@ nav ul li a.active {
     rgba(148, 187, 233, 1) 50%
   );
   font-weight: bold;
+}
+
+.grid-item {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.grid-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.grid-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.grid-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 0.3s ease-out forwards;
+}
+
+:has(.section) {
+  animation: fadeInUp 0.3s ease-out forwards;
+}
+
+.deadline {
+  color: grey;
+}
+
+.rules {
+  font-size: 700;
+  color: rgb(9, 35, 64);
 }
