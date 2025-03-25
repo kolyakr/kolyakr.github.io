@@ -1,0 +1,254 @@
+{
+  "rankingData": [
+    {
+      "id": "1",
+      "name": "Іван",
+      "score": 250
+    },
+    {
+      "id": "2",
+      "name": "Марія",
+      "score": 220
+    },
+    {
+      "id": "3",
+      "name": "Олександр",
+      "score": 200
+    },
+    {
+      "id": "4",
+      "name": "Анастасія",
+      "score": 180
+    },
+    {
+      "id": "5",
+      "name": "Дмитро",
+      "score": 160
+    },
+    {
+      "id": "7afc",
+      "name": "Коля",
+      "score": 286
+    },
+    {
+      "id": "1596",
+      "name": "Вася",
+      "score": 49
+    },
+    {
+      "id": "5d6f",
+      "name": "Сергій",
+      "score": 111
+    },
+    {
+      "id": "038e",
+      "name": "івфів",
+      "score": 150
+    },
+    {
+      "id": "5f9f",
+      "name": "фівівф",
+      "score": 0
+    },
+    {
+      "id": "4b6d",
+      "name": "dsadas",
+      "score": 0
+    },
+    {
+      "id": "4466",
+      "name": "Сергій",
+      "score": 0
+    },
+    {
+      "id": "ce1e",
+      "name": "олрооо",
+      "score": 0
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "1",
+      "title": "AI Hackathon",
+      "deadline": "20 квітня 2025",
+      "rules": "Зробіть AI-рішення для автоматизації задач.",
+      "image": "./images/ai.webp"
+    },
+    {
+      "id": "2",
+      "title": "Web Dev Contest",
+      "deadline": "25 квітня 2026",
+      "rules": "Створіть інтерактивний веб-додаток.",
+      "image": "./images/web-dev.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Blockchain Battle",
+      "deadline": "10 травня 2025",
+      "rules": "Зробіть блокчейн-додаток або смарт-контракт.",
+      "image": "./images/block-chain.avif"
+    },
+    {
+      "id": "4",
+      "title": "Data Science Sprint",
+      "deadline": "15 червня 2025",
+      "rules": "Проаналізуйте та візуалізуйте великі дані.",
+      "image": "./images/data-science.avif"
+    },
+    {
+      "id": "5",
+      "title": "Cybersecurity Challenge",
+      "deadline": "25 червня 2025",
+      "rules": "Виявіть та усуньте кіберзагрози.",
+      "image": "./images/cybersecurity.jfif"
+    },
+    {
+      "id": "6",
+      "title": "Game Dev Jam",
+      "deadline": "10 липня 2025",
+      "rules": "Зробіть ігровий прототип.",
+      "image": "./images/game.png"
+    },
+    {
+      "id": "7",
+      "title": "FinTech Innovators",
+      "deadline": "10 серпня 2025",
+      "rules": "Створіть фінансове рішення або платформу.",
+      "image": "./images/fintech_innovators.jfif"
+    },
+    {
+      "id": "8",
+      "title": "IoT Challenge",
+      "deadline": "15 серпня 2025",
+      "rules": "Зробіть IoT-пристрій або рішення.",
+      "image": "./images/iot.svg"
+    },
+    {
+      "id": "9",
+      "title": "Healthcare AI Hack",
+      "deadline": "30 серпня 2025",
+      "rules": "Зробіть AI-рішення для медицини та здоров'я.",
+      "image": "./images/healthcare.png"
+    },
+    {
+      "id": "10",
+      "title": "AR/VR Innovation Jam",
+      "deadline": "25 вересня 2025",
+      "rules": "Створіть AR/VR-додаток.",
+      "image": "./images/vr.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Розумний бот",
+      "description": "Чат-бот з AI, що допомагає вирішувати задачі користувачів.",
+      "status": "В процесі",
+      "statusClass": "in-progress",
+      "buttonText": "Детальніше",
+      "createdAt": "2024-02-15",
+      "technologies": [
+        "React",
+        "Node.js",
+        "OpenAI API"
+      ],
+      "features": [
+        "Аналізує текстові запити",
+        "Розпізнає наміри користувача",
+        "Генерує відповіді на основі AI"
+      ],
+      "link": "https://github.com/example/smart-bot",
+      "image": "./images/smart-bot.jfif",
+      "reviews": [
+        {
+          "user": "Олена",
+          "rating": 5,
+          "comment": "Дуже корисний бот!"
+        },
+        {
+          "user": "Максим",
+          "rating": 4,
+          "comment": "Потрібно більше функцій."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Крипто-аналітик",
+      "description": "Платформа для прогнозування криптовалютних ринків.",
+      "status": "Завершено",
+      "statusClass": "completed",
+      "buttonText": "Детальніше",
+      "createdAt": "2023-11-10",
+      "technologies": [
+        "Next.js",
+        "Python",
+        "TensorFlow"
+      ],
+      "features": [
+        "Прогнозує курси криптовалют",
+        "Використовує машинне навчання",
+        "Має інтуїтивний інтерфейс"
+      ],
+      "link": "https://crypto-analytics.com",
+      "image": "./images/crypto-scientist.webp",
+      "reviews": [
+        {
+          "user": "Назар",
+          "rating": 5,
+          "comment": "Класний інструмент для трейдерів!"
+        },
+        {
+          "user": "Марія",
+          "rating": 3,
+          "comment": "Точність прогнозів середня."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Фінансовий помічник",
+      "description": "AI-інструмент для управління особистими фінансами.",
+      "status": "Заплановано",
+      "statusClass": "planned",
+      "buttonText": "Детальніше",
+      "createdAt": "2024-03-01",
+      "technologies": [
+        "React Native",
+        "Firebase",
+        "AI"
+      ],
+      "features": [
+        "Аналізує витрати та доходи",
+        "Пропонує способи економії",
+        "Створює бюджети"
+      ],
+      "link": "https://github.com/example/finance-assistant",
+      "image": "./images/financial-asistant.jpeg",
+      "reviews": [
+        {
+          "user": "Катерина",
+          "rating": 5,
+          "comment": "Дуже допомагає економити гроші!"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "1",
+      "href": "#competitions",
+      "text": "Змагання"
+    },
+    {
+      "id": "2",
+      "href": "#projects",
+      "text": "Мої проєкти"
+    },
+    {
+      "id": "3",
+      "href": "#ranking",
+      "text": "Рейтинг"
+    }
+  ]
+}
